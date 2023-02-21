@@ -1,5 +1,5 @@
 from fairseq.models.transformer_lm import TransformerLanguageModel
 custom_lm = TransformerLanguageModel.from_pretrained('./checkpoints/Test_5KModel', 'checkpoint_best.pt', tokenizer='moses', bpe='fastbpe', bpe_codes="./checkpoints/Test_5KModel/codes")
 custom_lm.cuda()
-result = custom_lm.sample('आं', beam=5)
+result = custom_lm.sample('आरो', beam=5)
 print(result)
