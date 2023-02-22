@@ -23,4 +23,16 @@ result = custom_lm.sample('आच्छा', beam=5)
 file1.write(f"\n{result}")
 print(result)
 
+result = custom_lm.sample('मा बाथ्रा', beam=5)
+file1.write(f"\n{result}")
+print(result)
+
+result = custom_lm.sample('माथो', beam=5)
+file1.write(f"\n{result}")
+print(result)
+
+result = custom_lm.sample('जोबोर गाहाम', beam=5)
+file1.write(f"\n{result}")
+print(result)
+
 file1.close()
