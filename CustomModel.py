@@ -7,6 +7,10 @@ file1 = open('./external_files/output.txt','a')
 file1.write(f"\n{result}")
 print(result)
 
+result = custom_lm.sample('दा मोनायाव', beam=5)
+file1.write(f"\n{result}")
+print(result)
+
 result = custom_lm.sample('माबा', beam=5)
 file1.write(f"\n{result}")
 print(result)
