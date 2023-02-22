@@ -8,22 +8,18 @@ file1.write(f"\n{result}")
 print(result)
 
 result = custom_lm.sample('माबा', beam=5)
-file1 = open('./external_files/output.txt','a')
 file1.write(f"\n{result}")
 print(result)
 
 result = custom_lm.sample('जोबोर', beam=5)
-file1 = open('./external_files/output.txt','a')
 file1.write(f"\n{result}")
 print(result)
 
 result = custom_lm.sample('मानसि', beam=5)
-file1 = open('./external_files/output.txt','a')
 file1.write(f"\n{result}")
 print(result)
 
 result = custom_lm.sample('आच्छा', beam=5)
-file1 = open('./external_files/output.txt','a')
 file1.write(f"\n{result}")
 print(result)
 
